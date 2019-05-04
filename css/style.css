@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* navbar modify */
+
+a {
+    color: #343a40;
+    background-color: transparent;
+}
+ a:hover {
+    color: #000;
+    text-decoration: underline !important;
+}
+/* nav */
+ul.nav{
+    float:right;
+}
+/* button sign in */
+
+.btn-primary {
+    color: #007bff;
+    background-color: #fff;
+    border-color: #007bff;
+    
+}
+
+.marginbutton {
+    margin-left: 10px;
+}
+
+
+/* pricing text style */
+.pricingtext{
+text-align: center;
+}
+.pricingtext h1{
+    font-family: inherit;
+    font-weight: 300;
+    font-size:4em;
+
+}
+
+.pricingtext p{
+    font-family: inherit;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/* pricing text */
+
+
+/* second row text */
+.title{
+    text-align:center;
+    background-color:#f7f7f7;
+    padding:12px 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 3px #ccc;
+    
+}
+
+.information{
+    box-shadow: 0 0 3px #ccc;
+    text-align:center;
+    padding:20px;
+    min-height: 300px;
+}
+
+.title h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.information p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+}
+
+.information p strong{
+    font-size:3em;
+}
+
+.information p span{
+    font-size:2em;
+    color: #ccc;
+}
+
+.freebutton{
+    width: 100%;
+    background-color: #fff;
+    color:#007bff;
+    padding: 10px;
+}
+
+.mybuttonpro,.mybuttonus{
+    width:100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+}
+
+/* margin-top */
+
+.margin-top{
+    margin-top:5%;
+}
+
+/* logo img */
+.logo img{
+    width: 24px;
+    height: 24px;
+}
+
+/* footer */
+ul {
+    list-style: none;
+}
+
+ul li a{
+    color: rgb(169, 173, 177);
+}
+
+ul li a:hover{
+    color: rgb(169, 173, 177);
+}
+
+/* media */
+
+@media screen and (max-width:798px){
+    .companyname{
+        width: 100%;
+        text-align: center;
+    }
+
+    .myrespond{
+        width: 100%;
+    }
+
+    ul.nav{
+        display: flex;
+        justify-content: center;
+        float: none;
+    } 
+
+    .myitem2{
+        margin-top:5%;
+    }
+   
+   
+}
